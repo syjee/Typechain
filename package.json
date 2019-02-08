@@ -5,5 +5,14 @@
   "main": "index.js",
   "repository": "https://github.com/syjee/Typechain",
   "author": "syjee",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \"node dist/index.js\""
+  },
+  "dependencies": {
+    "typescript": "^3.3.3"
+  },
+  "devDependencies": {
+    "tsc-watch": "^1.1.36"
+  }
 }

@@ -76,6 +76,7 @@ createNewBlock("second Block");
 createNewBlock("third Block");
 createNewBlock("fourth Block");
 createNewBlock("fifth Block");
-console.log(Blockchain);
+
+console.log(getBlockchain());
 
 export {};
